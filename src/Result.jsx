@@ -24,7 +24,7 @@ const Result = () => {
                 text = {shortenLink}
                 onCopy = {() => setCopied(true)}>
                 
-                <button >Copy to Clipboard</button>    
+                <button className="rounded bg-slate-950 hover:bg-indigo-500/100 text-white p-2">Copy to Clipboard</button>    
             </CopyToClipboard>            
             
         </div>
